@@ -15,7 +15,7 @@ import Illustrator from "../images/Illustrator.jpg";
 const Technology = () => {
   return (
     <div id="technology">
-      <section className="w-screen flex justify-center  flex-col items-center bg-white h-[70vh]">
+      <section className="w-screen flex justify-center  flex-col items-center bg-white min-h-[70vh]">
         <h4 className="text-center font-bold mt-10 text-[#03045E]">
           TECHNOLOGY
         </h4>

@@ -1,10 +1,11 @@
 import React from "react";
+import "../styles/About.css";
 import Man from "../images/aboutpics.jpg";
 
 const About = () => {
   return (
     <div id="about">
-      <section className="w-screen flex justify-center items-center h-[70vh] id=about bg-[#FBFAFB] mt-[8rem]">
+      <section className="w-screen flex justify-center items-center min-h-[70vh] id=about bg-[#FBFAFB] mt-[8rem]">
         <div className="w-[90vw] flex justify-around items-center">
           <div>
             <img src={Man} alt="About pict" width={400} />

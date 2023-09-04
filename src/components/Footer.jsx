@@ -3,13 +3,16 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <section className="w-screen flex justify-center items-center bg-[#03045E] mt-[10rem] h-[40vh]">
+      <section className="w-screen flex justify-center items-center bg-[#03045E] mt-[10rem] min-h-[40vh]">
         <section className="w-screen flex justify-around">
           <div>
-            <a href="#home">
-              <i class="bi  text-white  bi-arrow-up-circle-fill"></i>
-            </a>
+            <div class="animate-bounce duration-1000">
+              <a href="#home">
+                <i class="bi  text-white  bi-arrow-up-circle-fill "></i>
+              </a>
+            </div>
           </div>
+
           <div className="w-[30vw] flex justify-between flex-col">
             <div className="my-10 w-[20vw] flex justify-between ">
               <i class="bi text-white bi-github"></i>
@@ -26,9 +29,11 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <a href="#home">
-              <i class="bi  text-white  bi-arrow-up-circle-fill"></i>
-            </a>
+            <div class="animate-bounce duration-1000">
+              <a href="#home">
+                <i class="bi  text-white  bi-arrow-up-circle-fill "></i>
+              </a>
+            </div>
           </div>
         </section>
       </section>

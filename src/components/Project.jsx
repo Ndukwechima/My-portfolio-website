@@ -9,9 +9,9 @@ import Six from "../images/project 3.png";
 const Project = () => {
   return (
     <div id="project">
-      <section className="w-screen flex justify-center flex-col items-center bg-slate-50 h-[110vh]">
+      <section className="w-screen flex justify-center flex-col items-center bg-slate-50 min-h-[100vh]">
         <h4 className="mt-[10rem] font-bold text-[#03045E]">PROJECTS</h4>
-        <section className="w-[70vw] mt-[5rem] border">
+        <section className="w-[70vw] mt-[5rem]">
           <div
             className="flex justify-around
           "
@@ -19,10 +19,10 @@ const Project = () => {
             <figure>
               <img src={First} width={250} alt="First project" />
               <figcaption className="flex justify-between mt-4">
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Demo
                 </button>
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Project Summary
                 </button>
               </figcaption>
@@ -30,10 +30,10 @@ const Project = () => {
             <figure>
               <img src={Second} width={250} alt="First project" />
               <figcaption className="flex justify-between mt-4">
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Demo
                 </button>
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Project Summary
                 </button>
               </figcaption>
@@ -41,10 +41,10 @@ const Project = () => {
             <figure>
               <img src={Third} width={250} alt="First project" />
               <figcaption className="flex justify-between mt-4">
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Demo
                 </button>
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Project Summary
                 </button>
               </figcaption>
@@ -58,10 +58,10 @@ const Project = () => {
             <figure>
               <img src={Fourth} width={250} alt="First project" />
               <figcaption className="flex justify-between mt-4">
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Demo
                 </button>
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Project Summary
                 </button>
               </figcaption>
@@ -69,10 +69,10 @@ const Project = () => {
             <figure>
               <img src={Five} width={250} alt="First project" />
               <figcaption className="flex justify-between mt-4">
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Demo
                 </button>
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Project Summary
                 </button>
               </figcaption>
@@ -80,10 +80,10 @@ const Project = () => {
             <figure>
               <img src={Six} width={250} alt="First project" />
               <figcaption className="flex justify-between mt-4">
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Demo
                 </button>
-                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white">
+                <button className="bg-[#03045E] py-1 px-5 text-[11px] rounded-[3px] text-white hover:bg-[#24255c] opacity-2 transition duration-300 ease-in-out">
                   Project Summary
                 </button>
               </figcaption>

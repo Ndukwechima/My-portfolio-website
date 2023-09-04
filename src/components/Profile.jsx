@@ -15,7 +15,7 @@ const Profile = () => {
             Developer based in Nigeria
           </p>
           <div className="flex justify-between items-center w-64 mt-5 ">
-            <button className="bg-[#03045E] pt-2 px-5 pb-2 text-white font-500 text-[12px] font-600 rounded-[3px]">
+            <button className="bg-[#4361EE] pt-2 px-5 pb-2 text-white text-[12px] rounded-[3px] hover:bg-blue-400 transition duration-300 ease-in-out">
               Download My CV
             </button>
             <div className="space-x-3">
