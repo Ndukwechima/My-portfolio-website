@@ -1,0 +1,27 @@
+.exclude {
+  animation: excludes 25s linear alternate infinite;
+}
+.exclude1 {
+  animation: exclud 25s linear alternate infinite;
+}
+.exclude2 {
+  animation: exclu 25s linear alternate infinite;
+}
+
+@keyframes exclu {
+  to {
+    transform: translate(100vw, 20vh);
+  }
+}
+
+@keyframes exclud {
+  to {
+    transform: translate(100vw, -100vh);
+  }
+}
+
+@keyframes excludes {
+  to {
+    transform: translate(100vw, -50vh);
+  }
+}

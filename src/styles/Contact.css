@@ -1,0 +1,105 @@
+.gradient-border {
+  animation: moveGradient 10s linear infinite;
+  border-image: linear-gradient(
+      to right,
+      rgb(23, 2, 91),
+      rgb(91, 91, 236),
+      rgb(243, 57, 19)
+    )
+    1;
+  border-image-slice: 1;
+}
+
+@keyframes moveGradient {
+  0%,
+  100% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(23, 2, 91),
+      rgb(91, 91, 236),
+      rgb(243, 57, 19)
+    );
+    border-image-slice: 1;
+  }
+  10% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(91, 91, 236),
+      rgb(243, 57, 19),
+      rgb(23, 2, 91)
+    );
+    border-image-slice: 1;
+  }
+  20% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(243, 57, 19),
+      rgb(23, 2, 91),
+      rgb(91, 91, 236)
+    );
+    border-image-slice: 1;
+  }
+  30% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(23, 2, 91),
+      rgb(91, 91, 236),
+      rgb(243, 57, 19)
+    );
+    border-image-slice: 1;
+  }
+  40% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(91, 91, 236),
+      rgb(243, 57, 19),
+      rgb(23, 2, 91)
+    );
+    border-image-slice: 1;
+  }
+  50% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(243, 57, 19),
+      rgb(23, 2, 91),
+      rgb(91, 91, 236)
+    );
+    border-image-slice: 1;
+  }
+  60% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(23, 2, 91),
+      rgb(91, 91, 236),
+      rgb(243, 57, 19)
+    );
+    border-image-slice: 1;
+  }
+  70% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(91, 91, 236),
+      rgb(243, 57, 19),
+      rgb(23, 2, 91)
+    );
+    border-image-slice: 1;
+  }
+  80% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(243, 57, 19),
+      rgb(23, 2, 91),
+      rgb(91, 91, 236)
+    );
+    border-image-slice: 1;
+  }
+  90% {
+    border-image-source: linear-gradient(
+      to right,
+      rgb(23, 2, 91),
+      rgb(91, 91, 236),
+      rgb(243, 57, 19)
+    );
+    border-image-slice: 1;
+  }
+}
