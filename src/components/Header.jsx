@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "../styles/Header.css";
 import Logo from "../images/My logo.png";
 
@@ -19,37 +20,76 @@ export const Header = () => {
         <nav className="hidden md:flex ">
           <ul className="flex text-[12px] space-x-9 text-[#03045E] font-bold tracking-wider">
             <li className="text-[#FF4000]">
-              <a className="hover:border-b-2 border-[#FF4000]" href="#home">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="hover:border-b-2 border-[#FF4000] cursor-pointer"
+              >
                 HOME
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:border-b-2 border-[#FF4000]" href="#skills">
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="hover:border-b-2 border-[#FF4000] cursor-pointer"
+              >
                 SKILLS
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:border-b-2 border-[#FF4000]" href="#about">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="hover:border-b-2 border-[#FF4000] cursor-pointer"
+              >
                 ABOUT
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="hover:border-b-2 border-[#FF4000]"
-                href="#technology"
+              <Link
+                to="technology"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="hover:border-b-2 border-[#FF4000] cursor-pointer"
               >
                 TECHNOLOGY
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:border-b-2 border-[#FF4000]" href="#project">
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="hover:border-b-2 border-[#FF4000] cursor-pointer"
+              >
                 PROJECTS
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:border-b-2 border-[#FF4000]" href="#contact">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="hover:border-b-2 border-[#FF4000] cursor-pointer"
+              >
                 CONTACT
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -73,58 +113,88 @@ export const Header = () => {
         >
           <ul className="list-none space-y-6">
             <li>
-              <a
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="text-[#FF4000] hover:border-b-2 border-[#FF4000]"
                 href="#home"
                 onClick={toggleMenu}
               >
                 HOME
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="hover:border-b-2 border-[#FF4000]"
                 href="#skills"
                 onClick={toggleMenu}
               >
                 SKILLS
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="hover:border-b-2 border-[#FF4000]"
                 href="#about"
                 onClick={toggleMenu}
               >
                 ABOUT ME
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                to="technology"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="hover:border-b-2 border-[#FF4000]"
                 href="#technology"
                 onClick={toggleMenu}
               >
                 TECHNOLOGY
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="hover:border-b-2 border-[#FF4000]"
                 href="#project"
                 onClick={toggleMenu}
               >
                 PROJECTS
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="hover:border-b-2 border-[#FF4000]"
                 href="#contact"
                 onClick={toggleMenu}
               >
                 CONTACT ME
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
